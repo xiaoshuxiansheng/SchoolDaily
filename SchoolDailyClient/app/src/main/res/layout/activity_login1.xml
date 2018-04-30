@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_below="@+id/id_loginlogo"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/mUserName"
+            android:layout_width="271dp"
+            android:layout_height="50dp"
+            android:alpha="0.2"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="请输入账号" />
+
+        <EditText
+            android:id="@+id/mPassWord"
+            android:layout_width="272dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.2"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="请输入密码" />
+
+        <ImageView
+            android:id="@+id/mLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/signup" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/id_loginlogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/schoolicon" />
+
+</RelativeLayout>
